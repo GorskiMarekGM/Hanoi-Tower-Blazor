@@ -227,39 +227,6 @@
         }
       },
       {
-        "HashCode": 598400387,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.FetchData",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -1459511037,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.FetchData",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "hanoi.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2060196549,
         "Kind": "Components.Component",
         "Name": "hanoi.Pages.Error",
@@ -289,6 +256,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "hanoi.Pages.Error",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 598400387,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.FetchData",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1459511037,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.FetchData",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "hanoi.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
