@@ -12,55 +12,134 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 52637777,
+        "HashCode": -547457042,
         "Kind": "Components.Component",
-        "Name": "hanoi.Shared.SurveyPrompt",
+        "Name": "hanoi.App",
         "AssemblyName": "hanoi",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Shared.SurveyPrompt"
+          "Common.TypeName": "hanoi.App"
         }
       },
       {
-        "HashCode": 1896897857,
+        "HashCode": 519720244,
         "Kind": "Components.Component",
-        "Name": "hanoi.Shared.SurveyPrompt",
+        "Name": "hanoi.App",
         "AssemblyName": "hanoi",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "hanoi.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "hanoi.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Shared.SurveyPrompt",
+          "Common.TypeName": "hanoi.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 2060196549,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.Error",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Error"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.Error"
+        }
+      },
+      {
+        "HashCode": 1497227764,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.Error",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "hanoi.Pages.Error"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.Error",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 598400387,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.FetchData",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1459511037,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.FetchData",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "hanoi.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1845704798,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.Index",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1570079693,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.Index",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "hanoi.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -194,167 +273,55 @@
         }
       },
       {
-        "HashCode": 1845704798,
+        "HashCode": 52637777,
         "Kind": "Components.Component",
-        "Name": "hanoi.Pages.Index",
+        "Name": "hanoi.Shared.SurveyPrompt",
         "AssemblyName": "hanoi",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.Index"
+          "Common.TypeName": "hanoi.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -1570079693,
+        "HashCode": 1896897857,
         "Kind": "Components.Component",
-        "Name": "hanoi.Pages.Index",
+        "Name": "hanoi.Shared.SurveyPrompt",
         "AssemblyName": "hanoi",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "hanoi.Pages.Index"
+            "TagName": "hanoi.Shared.SurveyPrompt"
           }
         ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 2060196549,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.Error",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+        "BoundAttributes": [
           {
-            "TagName": "Error"
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.Error"
-        }
-      },
-      {
-        "HashCode": 1497227764,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.Error",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "hanoi.Pages.Error"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.Error",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 598400387,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.FetchData",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -1459511037,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.FetchData",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "hanoi.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 654912014,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.Towers",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Towers"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.Towers"
-        }
-      },
-      {
-        "HashCode": -33163524,
-        "Kind": "Components.Component",
-        "Name": "hanoi.Pages.Towers",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "hanoi.Pages.Towers"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.Pages.Towers",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -547457042,
-        "Kind": "Components.Component",
-        "Name": "hanoi.App",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.App"
-        }
-      },
-      {
-        "HashCode": 519720244,
-        "Kind": "Components.Component",
-        "Name": "hanoi.App",
-        "AssemblyName": "hanoi",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "hanoi.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "hanoi.App",
+          "Common.TypeName": "hanoi.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
