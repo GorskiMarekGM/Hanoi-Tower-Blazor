@@ -32,7 +32,7 @@ namespace hanoi.Data
         }
         public void startDiskCounter()
         {
-            Console.WriteLine("Towers: {0}, disks",totalOfTowers());
+            Console.WriteLine("Tower: {0} - {1} disks",totalOfTowers(),currentDiskCounter);
         }
         public HanoiDisk getNextDisk()
         {
@@ -49,7 +49,7 @@ namespace hanoi.Data
         }
         public void selection(bool trueForSelected)
         {
-
+            selected = trueForSelected;
         }
 
     }

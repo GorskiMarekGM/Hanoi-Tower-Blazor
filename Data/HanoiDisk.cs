@@ -13,6 +13,5 @@ namespace hanoi.Data
             this.color = colorx;
         }
 
-
     }
 }

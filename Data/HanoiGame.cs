@@ -16,12 +16,11 @@ namespace hanoi.Data
             
         }
         
-        public HanoiTower addTower()
+        public HanoiTower addTower(HanoiTower tower)
         {
-            HanoiTower t1 = new HanoiTower(this);
-            towers.Add(t1);
+            towers.Add(tower);
 
-            return t1;
+            return tower;
         }
 
         public HanoiTower getTower(int towerId)
@@ -31,7 +30,7 @@ namespace hanoi.Data
         
         public void toConsole()
         {
-            Console.WriteLine("Tower: {0} - {1} disks",totalOfTowers(),2);
+            getTower(0).startDiskCounter();
         }
         public int totalOfTowers()
         {
