@@ -5,18 +5,21 @@ namespace hanoi.Data
 {
     public class HanoiTower: HanoiGame
     {
+        private HanoiGame game;
         private bool selected {get;set;}
         private int currentDiskCounter = 0;
         public List<HanoiDisk> disks = new List<HanoiDisk>();
 
-        public HanoiTower()
+        public HanoiTower(HanoiGame gameHanoi)
         {
-            
+            this.game = gameHanoi;
         }
         public bool pushDisk(HanoiDisk d)
         {
             currentDiskCounter++;
             disks.Add(d);
+
+            return true;
         }
         public HanoiDisk popDisk()
         {
@@ -29,11 +32,16 @@ namespace hanoi.Data
         }
         public void startDiskCounter()
         {
-            Console.WriteLine("Tower: "+{HanoiGame.getTower()} + {currentDiskCounter}" disks");
+            Console.WriteLine("Towers: {0}, disks",totalOfTowers());
         }
         public HanoiDisk getNextDisk()
         {
-
+            if(disks.Count>0)
+            {
+                var item = disks[disks.Count - 1];
+                return item;
+            }
+            return null;
         }
         public bool is_selected()
         {

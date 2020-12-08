@@ -144,6 +144,39 @@
         }
       },
       {
+        "HashCode": 654912014,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.Towers",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Towers"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.Towers"
+        }
+      },
+      {
+        "HashCode": -33163524,
+        "Kind": "Components.Component",
+        "Name": "hanoi.Pages.Towers",
+        "AssemblyName": "hanoi",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "hanoi.Pages.Towers"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "hanoi.Pages.Towers",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -579622602,
         "Kind": "Components.Component",
         "Name": "hanoi.Shared.MainLayout",

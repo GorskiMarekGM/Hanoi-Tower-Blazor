@@ -18,7 +18,7 @@ namespace hanoi.Data
         
         public HanoiTower addTower()
         {
-            HanoiTower t1 = new HanoiTower();
+            HanoiTower t1 = new HanoiTower(this);
             towers.Add(t1);
 
             return t1;
