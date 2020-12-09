@@ -30,7 +30,11 @@ namespace hanoi.Data
         
         public void toConsole()
         {
-            getTower(0).startDiskCounter();
+            for(int i=0; i<towers.Count; i++)
+            {
+                getTower(i).startDiskCounter(i);
+            }
+            
         }
         public int totalOfTowers()
         {

@@ -12,6 +12,10 @@ namespace hanoi.Data
             this.size = sizex;
             this.color = colorx;
         }
+        public void displayDisk(int id)
+        {
+            Console.WriteLine("Disk: {0} - {1} {2}",id,size,color);
+        }
 
     }
 }

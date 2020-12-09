@@ -30,9 +30,18 @@ namespace hanoi.Data
 
             return popThis;
         }
-        public void startDiskCounter()
+        public HanoiDisk getDisk(int diskId)
         {
-            Console.WriteLine("Tower: {0} - {1} disks",totalOfTowers(),currentDiskCounter);
+            return disks[diskId];
+        }
+        public void startDiskCounter(int id)
+        {
+            Console.WriteLine("Tower: {0} - {1} disks",id,currentDiskCounter);
+
+            for(int i=0; i<disks.Count; i++)
+            {
+                getDisk(i).displayDisk(i);
+            }
         }
         public HanoiDisk getNextDisk()
         {
