@@ -7,7 +7,7 @@ namespace hanoi.Data
     {
         private HanoiGame game;
         private bool selected {get;set;}
-        private int currentDiskCounter = 0;
+        public int currentDiskCounter = 0;
         public List<HanoiDisk> disks = new List<HanoiDisk>();
 
         public HanoiTower(HanoiGame gameHanoi)

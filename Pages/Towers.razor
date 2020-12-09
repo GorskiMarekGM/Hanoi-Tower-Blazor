@@ -7,10 +7,30 @@
 
 
 <svg width="1500" height="500">
-    
+    @{
+        display();
+    }
     <g id="r1" fill="@r1.color" @onclick="() => display()">
         <rect x="100" y="200" width="30" height="300" />
         <rect x="30" y="470" width="180" height="30"/>
+
+        @if(t.currentDiskCounter == 3)
+        {
+        <rect x="40" y="430" width="160" height="30" fill="green"/>
+        <rect x="60" y="390" width="120" height="30" fill="orange"/>
+        <rect x="80" y="350" width="80" height="30" fill="red"/>
+        }
+        @if(t.currentDiskCounter == 2)
+        {
+        <rect x="40" y="430" width="160" height="30" fill="green"/>
+        <rect x="60" y="390" width="120" height="30" fill="orange"/>
+        }
+        @if(t.currentDiskCounter == 1)
+        {
+        <rect x="40" y="430" width="160" height="30" fill="green"/>
+        }
+
+
     </g>
 
     <g id="r2" fill="@r2.color" @onclick="() => display()">
@@ -31,12 +51,10 @@
     public Data.Rectangle r1 = new Data.Rectangle(1,"black");
     public Data.Rectangle r2 = new Data.Rectangle(2,"black");
     public Data.Rectangle r3 = new Data.Rectangle(3,"black");
+    public static HanoiGame h = new HanoiGame();
+    public HanoiTower t = new HanoiTower(h);
 
     public void display(){
-        
-    var h = new HanoiGame();
-    var t = new HanoiTower(h);
-    
         h.addTower(t);
         t.pushDisk(new HanoiDisk(6,"orange"));
         t.pushDisk(new HanoiDisk(4,"blue"));
@@ -44,6 +62,11 @@
         h.addTower(new HanoiTower(h));
         h.addTower(new HanoiTower(h));
         h.toConsole();
+        Console.WriteLine();
+
+       // h.getTower(1).pushDisk(h.getTower(0).popDisk());
+        //h.getTower(2).pushDisk(h.getTower(0).popDisk());
+       // h.toConsole();
     }
     public void listCreate(){
         items.Add(r1);
